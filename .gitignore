@@ -1,0 +1,59 @@
+# Excel temporary files
+~$*.xlsx
+~$*.xls
+~$*.xlsm
+~$*.csv
+*.tmp
+~$*
+
+# macOS system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows system files
+desktop.ini
+$RECYCLE.BIN/
+
+# SQLite database files (optional - uncomment if you don't want to track .db files)
+# *.db
+# *.sqlite
+# *.sqlite3
+
+# Power BI files - .pbix files can be large (10-100MB)
+# Recommendation: Do NOT commit .pbix files to GitHub
+# Instead, commit screenshots/PDF exports in screenshots/ folder
+*.pbix
+*.pbit
+*.bim
+
+# Python virtual environments (if you add Python scripts later)
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Build artifacts
+dist/
+build/
+
+# Environment files
+.env
+.env.local

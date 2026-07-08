@@ -1,0 +1,501 @@
+record_id,state,region,sector,month,year,consumption_units_mwh,per_capita_consumption,tariff_rate_per_unit,renewable_share_percent
+1,Maharashtra,West,Industrial,January,2023,45230.5,245.8,6.85,18.5
+2,Maharashtra,West,Residential,January,2023,28450.3,156.2,5.50,18.5
+3,Maharashtra,West,Commercial,January,2023,19230.8,105.3,7.20,18.5
+4,Maharashtra,West,Agricultural,January,2023,8450.2,46.2,2.50,18.5
+5,Gujarat,West,Industrial,January,2023,38920.7,198.5,6.20,22.3
+6,Gujarat,West,Residential,January,2023,21540.5,112.3,5.10,22.3
+7,Gujarat,West,Commercial,January,2023,16890.3,87.5,6.95,22.3
+8,Gujarat,West,Agricultural,January,2023,9230.8,47.8,2.30,22.3
+9,Tamil Nadu,South,Industrial,January,2023,35680.2,185.2,6.45,28.7
+10,Tamil Nadu,South,Residential,January,2023,23450.8,123.5,5.35,28.7
+11,Tamil Nadu,South,Commercial,January,2023,15670.5,82.3,7.10,28.7
+12,Tamil Nadu,South,Agricultural,January,2023,7890.3,41.5,2.15,28.7
+13,Karnataka,South,Industrial,January,2023,32890.6,175.8,6.30,26.5
+14,Karnataka,South,Residential,January,2023,21230.4,115.2,5.25,26.5
+15,Karnataka,South,Commercial,January,2023,14560.7,78.9,6.85,26.5
+16,Karnataka,South,Agricultural,January,2023,7230.5,39.2,2.10,26.5
+17,Andhra Pradesh,South,Industrial,January,2023,28450.3,158.5,6.15,24.8
+18,Andhra Pradesh,South,Residential,January,2023,19870.6,112.3,5.15,24.8
+19,Andhra Pradesh,South,Commercial,January,2023,13240.8,74.5,6.70,24.8
+20,Andhra Pradesh,South,Agricultural,January,2023,8560.4,48.2,2.25,24.8
+21,Uttar Pradesh,North,Industrial,January,2023,31250.8,125.4,6.50,15.2
+22,Uttar Pradesh,North,Residential,January,2023,28930.5,118.2,5.40,15.2
+23,Uttar Pradesh,North,Commercial,January,2023,16780.3,68.5,7.05,15.2
+24,Uttar Pradesh,North,Agricultural,January,2023,12450.7,50.8,2.40,15.2
+25,Rajasthan,West,Industrial,January,2023,24560.4,142.3,6.35,32.5
+26,Rajasthan,West,Residential,January,2023,17890.6,105.8,5.20,32.5
+27,Rajasthan,West,Commercial,January,2023,11230.5,67.2,6.60,32.5
+28,Rajasthan,West,Agricultural,January,2023,9870.3,58.9,2.35,32.5
+29,Madhya Pradesh,West,Industrial,January,2023,22340.7,138.5,6.25,19.8
+30,Madhya Pradesh,West,Residential,January,2023,16540.2,102.3,5.10,19.8
+31,Madhya Pradesh,West,Commercial,January,2023,10890.6,68.2,6.55,19.8
+32,Madhya Pradesh,West,Agricultural,January,2023,8230.4,51.5,2.20,19.8
+33,Punjab,North,Industrial,January,2023,18920.5,145.8,6.40,12.5
+34,Punjab,North,Residential,January,2023,14230.7,112.5,5.30,12.5
+35,Punjab,North,Commercial,January,2023,9870.3,78.2,6.75,12.5
+36,Punjab,North,Agricultural,January,2023,11230.5,89.5,2.45,12.5
+37,Haryana,North,Industrial,January,2023,17890.6,142.3,6.35,14.2
+38,Haryana,North,Residential,January,2023,13240.8,108.5,5.25,14.2
+39,Haryana,North,Commercial,January,2023,9230.5,75.8,6.70,14.2
+40,Haryana,North,Agricultural,January,2023,8560.4,70.2,2.40,14.2
+41,West Bengal,East,Industrial,January,2023,26780.3,135.6,6.55,16.8
+42,West Bengal,East,Residential,January,2023,22340.7,115.2,5.45,16.8
+43,West Bengal,East,Commercial,January,2023,14560.8,74.8,7.15,16.8
+44,West Bengal,East,Agricultural,January,2023,7890.5,40.5,2.30,16.8
+45,Delhi,North,Industrial,January,2023,8950.4,48.5,6.80,8.5
+46,Delhi,North,Residential,January,2023,15670.6,85.2,5.60,8.5
+47,Delhi,North,Commercial,January,2023,11230.8,61.5,7.25,8.5
+48,Delhi,North,Agricultural,January,2023,450.3,2.5,2.50,8.5
+49,Kerala,South,Industrial,January,2023,14560.5,82.3,6.20,35.8
+50,Kerala,South,Residential,January,2023,17890.7,102.5,5.35,35.8
+51,Kerala,South,Commercial,January,2023,9230.4,53.2,6.90,35.8
+52,Kerala,South,Agricultural,January,2023,4560.2,26.5,2.10,35.8
+53,Odisha,East,Industrial,January,2023,19870.6,108.5,6.30,22.5
+54,Odisha,East,Residential,January,2023,14560.8,82.3,5.20,22.5
+55,Odisha,East,Commercial,January,2023,8950.5,51.2,6.65,22.5
+56,Odisha,East,Agricultural,January,2023,6780.4,38.9,2.25,22.5
+57,Telangana,South,Industrial,January,2023,23450.7,142.8,6.25,23.5
+58,Telangana,South,Residential,January,2023,16780.5,105.2,5.15,23.5
+59,Telangana,South,Commercial,January,2023,11230.6,70.8,6.75,23.5
+60,Telangana,South,Agricultural,January,2023,7890.3,50.5,2.20,23.5
+61,Assam,Northeast,Industrial,January,2023,7890.5,52.3,6.45,18.2
+62,Assam,Northeast,Residential,January,2023,8950.8,62.5,5.25,18.2
+63,Assam,Northeast,Commercial,January,2023,4560.4,32.8,6.80,18.2
+64,Assam,Northeast,Agricultural,January,2023,3450.6,24.5,2.15,18.2
+65,Maharashtra,West,Industrial,July,2023,55890.8,304.5,6.85,18.5
+66,Maharashtra,West,Residential,July,2023,35670.7,198.2,5.50,18.5
+67,Maharashtra,West,Commercial,July,2023,24230.6,134.5,7.20,18.5
+68,Maharashtra,West,Agricultural,July,2023,10230.8,56.8,2.50,18.5
+69,Gujarat,West,Industrial,July,2023,47890.7,246.5,6.20,22.3
+70,Gujarat,West,Residential,July,2023,27450.6,142.5,5.10,22.3
+71,Gujarat,West,Commercial,July,2023,20670.8,107.5,6.95,22.3
+72,Gujarat,West,Agricultural,July,2023,11012.7,57.2,2.30,22.3
+73,Tamil Nadu,South,Industrial,July,2023,43890.6,228.5,6.45,28.7
+74,Tamil Nadu,South,Residential,July,2023,29450.8,155.2,5.35,28.7
+75,Tamil Nadu,South,Commercial,July,2023,19230.7,100.5,7.10,28.7
+76,Tamil Nadu,South,Agricultural,July,2023,9450.6,50.2,2.15,28.7
+77,Karnataka,South,Industrial,July,2023,41230.7,219.8,6.30,26.5
+78,Karnataka,South,Residential,July,2023,26890.8,146.5,5.25,26.5
+79,Karnataka,South,Commercial,July,2023,17890.7,97.2,6.85,26.5
+80,Karnataka,South,Agricultural,July,2023,8780.6,47.8,2.10,26.5
+81,Andhra Pradesh,South,Industrial,July,2023,35670.8,200.5,6.15,24.8
+82,Andhra Pradesh,South,Residential,July,2023,24890.7,141.2,5.15,24.8
+83,Andhra Pradesh,South,Commercial,July,2023,16450.8,93.5,6.70,24.8
+84,Andhra Pradesh,South,Agricultural,July,2023,10230.7,58.2,2.25,24.8
+85,Uttar Pradesh,North,Industrial,July,2023,40450.7,161.5,6.50,15.2
+86,Uttar Pradesh,North,Residential,July,2023,36670.8,149.2,5.40,15.2
+87,Uttar Pradesh,North,Commercial,July,2023,21450.7,87.8,7.05,15.2
+88,Uttar Pradesh,North,Agricultural,July,2023,15450.8,63.5,2.40,15.2
+89,Rajasthan,West,Industrial,July,2023,31450.8,179.2,6.35,32.5
+90,Rajasthan,West,Residential,July,2023,23230.6,136.8,5.20,32.5
+91,Rajasthan,West,Commercial,July,2023,14012.7,82.5,6.60,32.5
+92,Rajasthan,West,Agricultural,July,2023,12450.6,72.2,2.35,32.5
+93,Madhya Pradesh,West,Industrial,July,2023,28890.6,173.5,6.25,19.8
+94,Madhya Pradesh,West,Residential,July,2023,21230.7,130.2,5.10,19.8
+95,Madhya Pradesh,West,Commercial,July,2023,13450.8,82.8,6.55,19.8
+96,Madhya Pradesh,West,Agricultural,July,2023,10012.5,61.5,2.20,19.8
+97,Punjab,North,Industrial,July,2023,24230.8,185.5,6.40,12.5
+98,Punjab,North,Residential,July,2023,18230.7,142.5,5.30,12.5
+99,Punjab,North,Commercial,July,2023,12450.6,95.8,6.75,12.5
+100,Punjab,North,Agricultural,July,2023,13890.7,109.5,2.45,12.5
+101,Haryana,North,Industrial,July,2023,23230.7,181.5,6.35,14.2
+102,Haryana,North,Residential,July,2023,17012.8,136.2,5.25,14.2
+103,Haryana,North,Commercial,July,2023,11450.7,91.2,6.70,14.2
+104,Haryana,North,Agricultural,July,2023,10230.6,83.5,2.40,14.2
+105,West Bengal,East,Industrial,July,2023,33450.8,168.5,6.55,16.8
+106,West Bengal,East,Residential,July,2023,27890.7,143.5,5.45,16.8
+107,West Bengal,East,Commercial,July,2023,17890.8,91.2,7.15,16.8
+108,West Bengal,East,Agricultural,July,2023,9450.7,48.2,2.30,16.8
+109,Delhi,North,Industrial,July,2023,11450.6,62.5,6.80,8.5
+110,Delhi,North,Residential,July,2023,20450.8,111.8,5.60,8.5
+111,Delhi,North,Commercial,July,2023,14230.7,77.5,7.25,8.5
+112,Delhi,North,Agricultural,July,2023,556.8,3.1,2.50,8.5
+113,Kerala,South,Industrial,July,2023,18230.8,104.2,6.20,35.8
+114,Kerala,South,Residential,July,2023,22230.7,128.5,5.35,35.8
+115,Kerala,South,Commercial,July,2023,11450.6,65.8,6.90,35.8
+116,Kerala,South,Agricultural,July,2023,5450.8,31.5,2.10,35.8
+117,Odisha,East,Industrial,July,2023,24890.7,136.2,6.30,22.5
+118,Odisha,East,Residential,July,2023,18230.8,102.8,5.20,22.5
+119,Odisha,East,Commercial,July,2023,11012.6,62.5,6.65,22.5
+120,Odisha,East,Agricultural,July,2023,8230.7,46.8,2.25,22.5
+121,Telangana,South,Industrial,July,2023,29890.7,179.5,6.25,23.5
+122,Telangana,South,Residential,July,2023,21230.8,132.5,5.15,23.5
+123,Telangana,South,Commercial,July,2023,13890.6,85.8,6.75,23.5
+124,Telangana,South,Agricultural,July,2023,9450.8,59.8,2.20,23.5
+125,Assam,Northeast,Industrial,July,2023,9450.7,62.5,6.45,18.2
+126,Assam,Northeast,Residential,July,2023,11012.8,76.8,5.25,18.2
+127,Assam,Northeast,Commercial,July,2023,5450.7,39.2,6.80,18.2
+128,Assam,Northeast,Agricultural,July,2023,4012.6,28.8,2.15,18.2
+129,Maharashtra,West,Industrial,January,2024,46890.5,256.8,6.95,19.2
+130,Maharashtra,West,Residential,January,2024,29670.8,165.5,5.55,19.2
+131,Maharashtra,West,Commercial,January,2024,20120.6,111.8,7.25,19.2
+132,Maharashtra,West,Agricultural,January,2024,8780.7,48.5,2.55,19.2
+133,Gujarat,West,Industrial,January,2024,40230.8,206.8,6.30,23.5
+134,Gujarat,West,Residential,January,2024,22230.7,115.8,5.15,23.5
+135,Gujarat,West,Commercial,January,2024,17450.6,90.2,7.00,23.5
+136,Gujarat,West,Agricultural,January,2024,9560.5,49.2,2.35,23.5
+137,Tamil Nadu,South,Industrial,January,2024,36890.7,191.8,6.50,29.5
+138,Tamil Nadu,South,Residential,January,2024,24230.8,127.5,5.40,29.5
+139,Tamil Nadu,South,Commercial,January,2024,16230.5,85.2,7.15,29.5
+140,Tamil Nadu,South,Agricultural,January,2024,8120.6,42.8,2.20,29.5
+141,Karnataka,South,Industrial,January,2024,33890.6,181.2,6.35,27.2
+142,Karnataka,South,Residential,January,2024,21890.7,119.5,5.30,27.2
+143,Karnataka,South,Commercial,January,2024,15012.8,81.5,6.90,27.2
+144,Karnataka,South,Agricultural,January,2024,7450.7,40.5,2.15,27.2
+145,Andhra Pradesh,South,Industrial,January,2024,29230.5,164.8,6.20,25.5
+146,Andhra Pradesh,South,Residential,January,2024,20450.8,115.8,5.20,25.5
+147,Andhra Pradesh,South,Commercial,January,2024,13670.7,77.2,6.75,25.5
+148,Andhra Pradesh,South,Agricultural,January,2024,8780.6,49.8,2.30,25.5
+149,Uttar Pradesh,North,Industrial,January,2024,32230.8,129.5,6.55,16.0
+150,Uttar Pradesh,North,Residential,January,2024,29890.5,121.8,5.45,16.0
+151,Uttar Pradesh,North,Commercial,January,2024,17230.7,70.5,7.10,16.0
+152,Uttar Pradesh,North,Agricultural,January,2024,12670.8,52.2,2.45,16.0
+153,Rajasthan,West,Industrial,January,2024,25450.7,146.5,6.40,33.8
+154,Rajasthan,West,Residential,January,2024,18450.6,108.8,5.25,33.8
+155,Rajasthan,West,Commercial,January,2024,11670.8,68.8,6.65,33.8
+156,Rajasthan,West,Agricultural,January,2024,10012.5,58.2,2.40,33.8
+157,Madhya Pradesh,West,Industrial,January,2024,23012.8,141.5,6.30,20.5
+158,Madhya Pradesh,West,Residential,January,2024,17012.7,105.2,5.15,20.5
+159,Madhya Pradesh,West,Commercial,January,2024,11230.6,69.8,6.60,20.5
+160,Madhya Pradesh,West,Agricultural,January,2024,8450.5,52.2,2.25,20.5
+161,Punjab,North,Industrial,January,2024,19450.7,149.2,6.45,13.2
+162,Punjab,North,Residential,January,2024,14670.8,115.2,5.35,13.2
+163,Punjab,North,Commercial,January,2024,10012.5,79.8,6.80,13.2
+164,Punjab,North,Agricultural,January,2024,11450.6,91.2,2.50,13.2
+165,Haryana,North,Industrial,January,2024,18450.6,144.5,6.40,14.8
+166,Haryana,North,Residential,January,2024,13670.7,111.2,5.30,14.8
+167,Haryana,North,Commercial,January,2024,9450.8,77.5,6.75,14.8
+168,Haryana,North,Agricultural,January,2024,8780.5,71.8,2.45,14.8
+169,West Bengal,East,Industrial,January,2024,27450.8,139.2,6.60,17.5
+170,West Bengal,East,Residential,January,2024,22890.5,117.8,5.50,17.5
+171,West Bengal,East,Commercial,January,2024,15012.7,76.8,7.20,17.5
+172,West Bengal,East,Agricultural,January,2024,8120.6,41.8,2.35,17.5
+173,Delhi,North,Industrial,January,2024,9230.7,50.5,6.85,9.0
+174,Delhi,North,Residential,January,2024,16120.6,88.5,5.65,9.0
+175,Delhi,North,Commercial,January,2024,11670.5,63.8,7.30,9.0
+176,Delhi,North,Agricultural,January,2024,467.8,2.6,2.55,9.0
+177,Kerala,South,Industrial,January,2024,15012.6,85.8,6.25,36.5
+178,Kerala,South,Residential,January,2024,18450.7,106.5,5.40,36.5
+179,Kerala,South,Commercial,January,2024,9450.5,54.5,6.95,36.5
+180,Kerala,South,Agricultural,January,2024,4670.8,27.2,2.15,36.5
+181,Odisha,East,Industrial,January,2024,20450.7,112.5,6.35,23.2
+182,Odisha,East,Residential,January,2024,15012.8,84.8,5.25,23.2
+183,Odisha,East,Commercial,January,2024,9230.6,52.8,6.70,23.2
+184,Odisha,East,Agricultural,January,2024,7012.5,40.2,2.30,23.2
+185,Telangana,South,Industrial,January,2024,24230.8,146.2,6.30,24.2
+186,Telangana,South,Residential,January,2024,17450.5,109.2,5.20,24.2
+187,Telangana,South,Commercial,January,2024,11670.7,72.5,6.80,24.2
+188,Telangana,South,Agricultural,January,2024,8120.7,51.8,2.25,24.2
+189,Assam,Northeast,Industrial,January,2024,8120.6,54.2,6.50,18.8
+190,Assam,Northeast,Residential,January,2024,9230.5,64.5,5.30,18.8
+191,Assam,Northeast,Commercial,January,2024,4670.7,33.8,6.85,18.8
+192,Assam,Northeast,Agricultural,January,2024,3560.8,25.8,2.20,18.8
+193,Maharashtra,West,Industrial,July,2024,57450.6,313.5,6.95,19.2
+194,Maharashtra,West,Residential,July,2024,36670.5,204.2,5.55,19.2
+195,Maharashtra,West,Commercial,July,2024,24890.8,138.8,7.25,19.2
+196,Maharashtra,West,Agricultural,July,2024,10560.7,58.8,2.55,19.2
+197,Gujarat,West,Industrial,July,2024,49230.5,253.8,6.30,23.5
+198,Gujarat,West,Residential,July,2024,28230.8,146.8,5.15,23.5
+199,Gujarat,West,Commercial,July,2024,21230.7,110.5,7.00,23.5
+200,Gujarat,West,Agricultural,July,2024,11340.6,58.8,2.35,23.5
+201,Tamil Nadu,South,Industrial,July,2024,45230.8,235.5,6.50,29.5
+202,Tamil Nadu,South,Residential,July,2024,30230.5,159.2,5.40,29.5
+203,Tamil Nadu,South,Commercial,July,2024,19890.6,104.5,7.15,29.5
+204,Tamil Nadu,South,Agricultural,July,2024,9780.7,51.8,2.20,29.5
+205,Karnataka,South,Industrial,July,2024,42450.7,227.2,6.35,27.2
+206,Karnataka,South,Residential,July,2024,27670.6,151.2,5.30,27.2
+207,Karnataka,South,Commercial,July,2024,18450.8,100.5,6.90,27.2
+208,Karnataka,South,Agricultural,July,2024,9120.5,49.8,2.15,27.2
+209,Andhra Pradesh,South,Industrial,July,2024,36670.8,207.2,6.20,25.5
+210,Andhra Pradesh,South,Residential,July,2024,25670.5,145.8,5.20,25.5
+211,Andhra Pradesh,South,Commercial,July,2024,17012.6,96.5,6.75,25.5
+212,Andhra Pradesh,South,Agricultural,July,2024,10560.8,60.2,2.30,25.5
+213,Uttar Pradesh,North,Industrial,July,2024,41670.7,166.8,6.55,16.0
+214,Uttar Pradesh,North,Residential,July,2024,37890.8,154.5,5.45,16.0
+215,Uttar Pradesh,North,Commercial,July,2024,22012.6,90.2,7.10,16.0
+216,Uttar Pradesh,North,Agricultural,July,2024,15890.7,65.5,2.45,16.0
+217,Rajasthan,West,Industrial,July,2024,32450.6,185.8,6.40,33.8
+218,Rajasthan,West,Residential,July,2024,24012.7,141.5,5.25,33.8
+219,Rajasthan,West,Commercial,July,2024,14450.8,85.2,6.65,33.8
+220,Rajasthan,West,Agricultural,July,2024,12890.5,74.8,2.40,33.8
+221,Madhya Pradesh,West,Industrial,July,2024,29890.5,179.8,6.30,20.5
+222,Madhya Pradesh,West,Residential,July,2024,22012.8,135.8,5.15,20.5
+223,Madhya Pradesh,West,Commercial,July,2024,13890.7,85.8,6.60,20.5
+224,Madhya Pradesh,West,Agricultural,July,2024,10450.6,64.5,2.25,20.5
+225,Punjab,North,Industrial,July,2024,25012.8,192.5,6.45,13.2
+226,Punjab,North,Residential,July,2024,18890.5,148.2,5.35,13.2
+227,Punjab,North,Commercial,July,2024,12890.6,99.5,6.80,13.2
+228,Punjab,North,Agricultural,July,2024,14450.7,114.8,2.50,13.2
+229,Haryana,North,Industrial,July,2024,24012.7,187.5,6.40,14.8
+230,Haryana,North,Residential,July,2024,17670.8,143.8,5.30,14.8
+231,Haryana,North,Commercial,July,2024,11890.5,94.2,6.75,14.8
+232,Haryana,North,Agricultural,July,2024,10670.6,87.2,2.45,14.8
+233,West Bengal,East,Industrial,July,2024,34670.6,175.2,6.60,17.5
+234,West Bengal,East,Residential,July,2024,28890.7,148.8,5.50,17.5
+235,West Bengal,East,Commercial,July,2024,18450.5,94.8,7.20,17.5
+236,West Bengal,East,Agricultural,July,2024,9780.8,50.2,2.35,17.5
+237,Delhi,North,Industrial,July,2024,11890.8,65.2,6.85,9.0
+238,Delhi,North,Residential,July,2024,21230.5,116.2,5.65,9.0
+239,Delhi,North,Commercial,July,2024,14890.6,81.5,7.30,9.0
+240,Delhi,North,Agricultural,July,2024,578.9,3.2,2.55,9.0
+241,Kerala,South,Industrial,July,2024,18890.7,108.2,6.25,36.5
+242,Kerala,South,Residential,July,2024,23012.6,133.2,5.40,36.5
+243,Kerala,South,Commercial,July,2024,11890.5,68.5,6.95,36.5
+244,Kerala,South,Agricultural,July,2024,5670.8,32.8,2.15,36.5
+245,Odisha,East,Industrial,July,2024,25670.5,141.2,6.35,23.2
+246,Odisha,East,Residential,July,2024,18890.6,106.8,5.25,23.2
+247,Odisha,East,Commercial,July,2024,11450.7,65.5,6.70,23.2
+248,Odisha,East,Agricultural,July,2024,8560.5,48.8,2.30,23.2
+249,Telangana,South,Industrial,July,2024,30890.6,185.8,6.30,24.2
+250,Telangana,South,Residential,July,2024,22012.7,138.2,5.20,24.2
+251,Telangana,South,Commercial,July,2024,14450.8,89.8,6.80,24.2
+252,Telangana,South,Agricultural,July,2024,9780.5,62.2,2.25,24.2
+253,Assam,Northeast,Industrial,July,2024,9780.7,64.8,6.50,18.8
+254,Assam,Northeast,Residential,July,2024,11450.6,79.8,5.30,18.8
+255,Assam,Northeast,Commercial,July,2024,5670.8,40.8,6.85,18.8
+256,Assam,Northeast,Agricultural,July,2024,4167.5,30.2,2.20,18.8
+257,Maharashtra,West,Industrial,January,2025,48560.7,265.5,7.05,20.0
+258,Maharashtra,West,Residential,January,2025,30890.6,172.2,5.60,20.0
+259,Maharashtra,West,Commercial,January,2025,20890.8,116.5,7.30,20.0
+260,Maharashtra,West,Agricultural,January,2025,9120.5,50.5,2.60,20.0
+261,Gujarat,West,Industrial,January,2025,41670.6,214.8,6.40,24.5
+262,Gujarat,West,Residential,January,2025,23012.7,119.5,5.20,24.5
+263,Gujarat,West,Commercial,January,2025,18012.8,93.2,7.05,24.5
+264,Gujarat,West,Agricultural,January,2025,9890.5,51.2,2.40,24.5
+265,Tamil Nadu,South,Industrial,January,2025,38230.7,198.8,6.55,30.2
+266,Tamil Nadu,South,Residential,January,2025,25012.8,131.8,5.45,30.2
+267,Tamil Nadu,South,Commercial,January,2025,16890.5,88.5,7.20,30.2
+268,Tamil Nadu,South,Agricultural,January,2025,8450.6,44.8,2.25,30.2
+269,Karnataka,South,Industrial,January,2025,35012.6,187.5,6.40,28.0
+270,Karnataka,South,Residential,January,2025,22670.5,123.8,5.35,28.0
+271,Karnataka,South,Commercial,January,2025,15560.8,84.2,6.95,28.0
+272,Karnataka,South,Agricultural,January,2025,7780.7,42.5,2.20,28.0
+273,Andhra Pradesh,South,Industrial,January,2025,30230.8,170.5,6.25,26.2
+274,Andhra Pradesh,South,Residential,January,2025,21230.7,120.2,5.25,26.2
+275,Andhra Pradesh,South,Commercial,January,2025,14120.6,80.2,6.80,26.2
+276,Andhra Pradesh,South,Agricultural,January,2025,9120.5,51.8,2.35,26.2
+277,Uttar Pradesh,North,Industrial,January,2025,33230.5,133.2,6.60,16.8
+278,Uttar Pradesh,North,Residential,January,2025,30890.8,125.8,5.50,16.8
+279,Uttar Pradesh,North,Commercial,January,2025,17890.7,73.2,7.15,16.8
+280,Uttar Pradesh,North,Agricultural,January,2025,13120.6,54.2,2.50,16.8
+281,Rajasthan,West,Industrial,January,2025,26450.7,152.2,6.45,34.8
+282,Rajasthan,West,Residential,January,2025,19230.8,113.2,5.30,34.8
+283,Rajasthan,West,Commercial,January,2025,12120.5,71.2,6.70,34.8
+284,Rajasthan,West,Agricultural,January,2025,10450.8,60.5,2.45,34.8
+285,Madhya Pradesh,West,Industrial,January,2025,23890.7,146.2,6.35,21.2
+286,Madhya Pradesh,West,Residential,January,2025,17670.6,109.2,5.20,21.2
+287,Madhya Pradesh,West,Commercial,January,2025,11670.5,72.2,6.65,21.2
+288,Madhya Pradesh,West,Agricultural,January,2025,8780.8,54.2,2.30,21.2
+289,Punjab,North,Industrial,January,2025,20230.6,155.8,6.50,13.8
+290,Punjab,North,Residential,January,2025,15230.7,119.5,5.40,13.8
+291,Punjab,North,Commercial,January,2025,10450.8,83.2,6.85,13.8
+292,Punjab,North,Agricultural,January,2025,11890.5,94.2,2.55,13.8
+293,Haryana,North,Industrial,January,2025,19230.5,150.8,6.45,15.2
+294,Haryana,North,Residential,January,2025,14230.6,115.8,5.35,15.2
+295,Haryana,North,Commercial,January,2025,9890.7,80.2,6.80,15.2
+296,Haryana,North,Agricultural,January,2025,9120.8,74.5,2.50,15.2
+297,West Bengal,East,Industrial,January,2025,28450.6,144.2,6.65,18.2
+298,West Bengal,East,Residential,January,2025,23670.7,122.2,5.55,18.2
+299,West Bengal,East,Commercial,January,2025,15560.5,79.8,7.25,18.2
+300,West Bengal,East,Agricultural,January,2025,8450.8,43.5,2.40,18.2
+301,Delhi,North,Industrial,January,2025,9560.8,52.5,6.90,9.5
+302,Delhi,North,Residential,January,2025,16780.5,91.8,5.70,9.5
+303,Delhi,North,Commercial,January,2025,12120.7,66.2,7.35,9.5
+304,Delhi,North,Agricultural,January,2025,489.2,2.7,2.60,9.5
+305,Kerala,South,Industrial,January,2025,15560.7,89.2,6.30,37.2
+306,Kerala,South,Residential,January,2025,19230.8,111.2,5.45,37.2
+307,Kerala,South,Commercial,January,2025,9890.6,57.2,7.00,37.2
+308,Kerala,South,Agricultural,January,2025,4890.5,28.5,2.20,37.2
+309,Odisha,East,Industrial,January,2025,21230.8,116.8,6.40,24.0
+310,Odisha,East,Residential,January,2025,15560.6,87.8,5.30,24.0
+311,Odisha,East,Commercial,January,2025,9560.7,54.5,6.75,24.0
+312,Odisha,East,Agricultural,January,2025,7230.5,41.5,2.35,24.0
+313,Telangana,South,Industrial,January,2025,25012.5,150.8,6.35,25.0
+314,Telangana,South,Residential,January,2025,18012.6,113.2,5.25,25.0
+315,Telangana,South,Commercial,January,2025,12120.8,75.2,6.85,25.0
+316,Telangana,South,Agricultural,January,2025,8450.7,53.8,2.30,25.0
+317,Assam,Northeast,Industrial,January,2025,8450.6,56.2,6.55,19.5
+318,Assam,Northeast,Residential,January,2025,9560.5,66.8,5.35,19.5
+319,Assam,Northeast,Commercial,January,2025,4890.8,35.2,6.90,19.5
+320,Assam,Northeast,Agricultural,January,2025,3678.7,26.8,2.25,19.5
+321,Maharashtra,West,Industrial,July,2025,59012.5,322.8,7.05,20.0
+322,Maharashtra,West,Residential,July,2025,37670.8,210.2,5.60,20.0
+323,Maharashtra,West,Commercial,July,2025,25670.7,143.2,7.30,20.0
+324,Maharashtra,West,Agricultural,July,2025,10890.6,60.5,2.60,20.0
+325,Gujarat,West,Industrial,July,2025,50670.8,261.2,6.40,24.5
+326,Gujarat,West,Residential,July,2025,29230.5,151.8,5.20,24.5
+327,Gujarat,West,Commercial,July,2025,22012.6,114.2,7.05,24.5
+328,Gujarat,West,Agricultural,July,2025,11670.7,60.5,2.40,24.5
+329,Tamil Nadu,South,Industrial,July,2025,46670.6,243.2,6.55,30.2
+330,Tamil Nadu,South,Residential,July,2025,31230.7,164.8,5.45,30.2
+331,Tamil Nadu,South,Commercial,July,2025,20670.8,108.5,7.20,30.2
+332,Tamil Nadu,South,Agricultural,July,2025,10120.5,53.5,2.25,30.2
+333,Karnataka,South,Industrial,July,2025,43890.5,235.2,6.40,28.0
+334,Karnataka,South,Residential,July,2025,28670.8,156.5,5.35,28.0
+335,Karnataka,South,Commercial,July,2025,19230.6,104.8,6.95,28.0
+336,Karnataka,South,Agricultural,July,2025,9450.8,51.8,2.20,28.0
+337,Andhra Pradesh,South,Industrial,July,2025,37890.7,214.2,6.25,26.2
+338,Andhra Pradesh,South,Residential,July,2025,26450.8,150.2,5.25,26.2
+339,Andhra Pradesh,South,Commercial,July,2025,17670.5,100.2,6.80,26.2
+340,Andhra Pradesh,South,Agricultural,July,2025,10890.7,62.2,2.35,26.2
+341,Uttar Pradesh,North,Industrial,July,2025,42890.6,171.8,6.60,16.8
+342,Uttar Pradesh,North,Residential,July,2025,39230.5,160.2,5.50,16.8
+343,Uttar Pradesh,North,Commercial,July,2025,22890.8,93.8,7.15,16.8
+344,Uttar Pradesh,North,Agricultural,July,2025,16450.7,67.8,2.50,16.8
+345,Rajasthan,West,Industrial,July,2025,33450.8,192.5,6.45,34.8
+346,Rajasthan,West,Residential,July,2025,24890.7,146.8,5.30,34.8
+347,Rajasthan,West,Commercial,July,2025,14890.6,87.8,6.70,34.8
+348,Rajasthan,West,Agricultural,July,2025,13230.5,76.8,2.45,34.8
+349,Madhya Pradesh,West,Industrial,July,2025,30890.8,187.2,6.35,21.2
+350,Madhya Pradesh,West,Residential,July,2025,22890.5,141.2,5.20,21.2
+351,Madhya Pradesh,West,Commercial,July,2025,14450.7,89.2,6.65,21.2
+352,Madhya Pradesh,West,Agricultural,July,2025,10890.6,67.2,2.30,21.2
+353,Punjab,North,Industrial,July,2025,25890.5,199.8,6.50,13.8
+354,Punjab,North,Residential,July,2025,19560.8,153.8,5.40,13.8
+355,Punjab,North,Commercial,July,2025,13230.7,103.2,6.85,13.8
+356,Punjab,North,Agricultural,July,2025,14890.6,118.5,2.55,13.8
+357,Haryana,North,Industrial,July,2025,24890.6,194.8,6.45,15.2
+358,Haryana,North,Residential,July,2025,18230.5,148.8,5.35,15.2
+359,Haryana,North,Commercial,July,2025,12230.8,98.5,6.80,15.2
+360,Haryana,North,Agricultural,July,2025,11012.7,89.8,2.50,15.2
+361,West Bengal,East,Industrial,July,2025,35890.7,181.8,6.65,18.2
+362,West Bengal,East,Residential,July,2025,29890.6,154.2,5.55,18.2
+363,West Bengal,East,Commercial,July,2025,19230.5,98.8,7.25,18.2
+364,West Bengal,East,Agricultural,July,2025,10120.8,52.2,2.40,18.2
+365,Delhi,North,Industrial,July,2025,12340.6,67.5,6.90,9.5
+366,Delhi,North,Residential,July,2025,22012.8,120.5,5.70,9.5
+367,Delhi,North,Commercial,July,2025,15450.7,84.5,7.35,9.5
+368,Delhi,North,Agricultural,July,2025,601.2,3.3,2.60,9.5
+369,Kerala,South,Industrial,July,2025,19560.8,112.2,6.30,37.2
+370,Kerala,South,Residential,July,2025,23890.5,138.2,5.45,37.2
+371,Kerala,South,Commercial,July,2025,12230.6,70.5,7.00,37.2
+372,Kerala,South,Agricultural,July,2025,5890.7,34.2,2.20,37.2
+373,Odisha,East,Industrial,July,2025,26450.7,145.5,6.40,24.0
+374,Odisha,East,Residential,July,2025,19560.5,110.8,5.30,24.0
+375,Odisha,East,Commercial,July,2025,11890.8,68.2,6.75,24.0
+376,Odisha,East,Agricultural,July,2025,8890.6,50.8,2.35,24.0
+377,Telangana,South,Industrial,July,2025,31890.8,191.8,6.35,25.0
+378,Telangana,South,Residential,July,2025,22890.5,143.8,5.25,25.0
+379,Telangana,South,Commercial,July,2025,15012.7,93.2,6.85,25.0
+380,Telangana,South,Agricultural,July,2025,10120.6,64.5,2.30,25.0
+381,Assam,Northeast,Industrial,July,2025,10120.5,67.2,6.55,19.5
+382,Assam,Northeast,Residential,July,2025,11890.7,82.8,5.35,19.5
+383,Assam,Northeast,Commercial,July,2025,5890.8,42.5,6.90,19.5
+384,Assam,Northeast,Agricultural,July,2025,4289.6,31.2,2.25,19.5
+385,Maharashtra,West,Industrial,April,2024,48230.6,263.8,6.95,19.5
+386,Maharashtra,West,Residential,April,2024,30450.7,169.8,5.55,19.5
+387,Maharashtra,West,Commercial,April,2024,20560.5,114.5,7.25,19.5
+388,Maharashtra,West,Agricultural,April,2024,8950.8,49.8,2.55,19.5
+389,Gujarat,West,Industrial,April,2024,41450.8,213.5,6.30,23.8
+390,Gujarat,West,Residential,April,2024,22890.5,119.2,5.15,23.8
+391,Gujarat,West,Commercial,April,2024,17950.7,93.0,7.00,23.8
+392,Gujarat,West,Agricultural,April,2024,9720.6,50.5,2.35,23.8
+393,Tamil Nadu,South,Industrial,April,2024,37890.5,197.2,6.50,29.8
+394,Tamil Nadu,South,Residential,April,2024,24890.6,131.2,5.40,29.8
+395,Tamil Nadu,South,Commercial,April,2024,16670.8,87.5,7.15,29.8
+396,Tamil Nadu,South,Agricultural,April,2024,8280.7,43.8,2.20,29.8
+397,Karnataka,South,Industrial,April,2024,34890.7,186.8,6.35,27.5
+398,Karnataka,South,Residential,April,2024,22450.6,122.2,5.30,27.5
+399,Karnataka,South,Commercial,April,2024,15340.5,83.2,6.90,27.5
+400,Karnataka,South,Agricultural,April,2024,7580.8,41.5,2.15,27.5
+401,Andhra Pradesh,South,Industrial,April,2024,29890.6,168.8,6.20,25.8
+402,Andhra Pradesh,South,Residential,April,2024,20890.5,118.2,5.20,25.8
+403,Andhra Pradesh,South,Commercial,April,2024,13950.8,79.0,6.75,25.8
+404,Andhra Pradesh,South,Agricultural,April,2024,8920.7,50.8,2.30,25.8
+405,Uttar Pradesh,North,Industrial,April,2024,32890.5,131.8,6.55,16.2
+406,Uttar Pradesh,North,Residential,April,2024,30450.8,124.2,5.45,16.2
+407,Uttar Pradesh,North,Commercial,April,2024,17560.7,72.0,7.10,16.2
+408,Uttar Pradesh,North,Agricultural,April,2024,12890.6,53.0,2.45,16.2
+409,Rajasthan,West,Industrial,April,2024,25950.7,149.2,6.40,34.0
+410,Rajasthan,West,Residential,April,2024,18890.8,111.2,5.25,34.0
+411,Rajasthan,West,Commercial,April,2024,11890.5,70.0,6.65,34.0
+412,Rajasthan,West,Agricultural,April,2024,10230.7,59.5,2.40,34.0
+413,Madhya Pradesh,West,Industrial,April,2024,23450.6,143.8,6.30,20.8
+414,Madhya Pradesh,West,Residential,April,2024,17340.7,107.0,5.15,20.8
+415,Madhya Pradesh,West,Commercial,April,2024,11450.8,71.0,6.60,20.8
+416,Madhya Pradesh,West,Agricultural,April,2024,8580.5,53.0,2.25,20.8
+417,Punjab,North,Industrial,April,2024,19890.5,153.2,6.45,13.5
+418,Punjab,North,Residential,April,2024,15012.6,117.5,5.35,13.5
+419,Punjab,North,Commercial,April,2024,10230.7,80.5,6.80,13.5
+420,Punjab,North,Agricultural,April,2024,11670.8,92.8,2.50,13.5
+421,Haryana,North,Industrial,April,2024,18890.7,147.8,6.40,15.0
+422,Haryana,North,Residential,April,2024,13950.5,113.5,5.30,15.0
+423,Haryana,North,Commercial,April,2024,9720.6,78.8,6.75,15.0
+424,Haryana,North,Agricultural,April,2024,8920.8,73.0,2.45,15.0
+425,West Bengal,East,Industrial,April,2024,27950.8,141.5,6.60,17.8
+426,West Bengal,East,Residential,April,2024,23230.7,120.0,5.50,17.8
+427,West Bengal,East,Commercial,April,2024,15230.5,78.5,7.20,17.8
+428,West Bengal,East,Agricultural,April,2024,8280.6,42.5,2.35,17.8
+429,Delhi,North,Industrial,April,2024,9380.6,51.5,6.85,9.2
+430,Delhi,North,Residential,April,2024,16340.8,89.5,5.65,9.2
+431,Delhi,North,Commercial,April,2024,11780.7,64.5,7.30,9.2
+432,Delhi,North,Agricultural,April,2024,475.2,2.6,2.55,9.2
+433,Kerala,South,Industrial,April,2024,15230.6,87.0,6.25,36.8
+434,Kerala,South,Residential,April,2024,18670.5,107.8,5.40,36.8
+435,Kerala,South,Commercial,April,2024,9560.8,55.2,6.95,36.8
+436,Kerala,South,Agricultural,April,2024,4720.7,27.5,2.15,36.8
+437,Odisha,East,Industrial,April,2024,20780.5,114.2,6.35,23.5
+438,Odisha,East,Residential,April,2024,15230.6,86.0,5.25,23.5
+439,Odisha,East,Commercial,April,2024,9380.7,53.5,6.70,23.5
+440,Odisha,East,Agricultural,April,2024,7120.8,40.8,2.30,23.5
+441,Telangana,South,Industrial,April,2024,24670.8,148.8,6.30,24.5
+442,Telangana,South,Residential,April,2024,17780.5,111.5,5.20,24.5
+443,Telangana,South,Commercial,April,2024,11780.6,73.2,6.80,24.5
+444,Telangana,South,Agricultural,April,2024,8200.7,52.0,2.25,24.5
+445,Assam,Northeast,Industrial,April,2024,8200.5,54.5,6.50,19.0
+446,Assam,Northeast,Residential,April,2024,9380.8,65.5,5.30,19.0
+447,Assam,Northeast,Commercial,April,2024,4720.5,34.2,6.85,19.0
+448,Assam,Northeast,Agricultural,April,2024,3590.6,26.0,2.20,19.0
+449,Maharashtra,West,Industrial,October,2024,49230.7,269.2,6.95,19.8
+450,Maharashtra,West,Residential,October,2024,31230.5,174.2,5.55,19.8
+451,Maharashtra,West,Commercial,October,2024,21012.8,117.2,7.25,19.8
+452,Maharashtra,West,Agricultural,October,2024,9150.6,50.8,2.55,19.8
+453,Gujarat,West,Industrial,October,2024,42340.5,218.2,6.30,24.0
+454,Gujarat,West,Residential,October,2024,23450.8,121.8,5.15,24.0
+455,Gujarat,West,Commercial,October,2024,18230.7,94.8,7.00,24.0
+456,Gujarat,West,Agricultural,October,2024,9870.6,51.2,2.35,24.0
+457,Tamil Nadu,South,Industrial,October,2024,38670.6,201.5,6.50,30.0
+458,Tamil Nadu,South,Residential,October,2024,25450.7,134.2,5.40,30.0
+459,Tamil Nadu,South,Commercial,October,2024,16950.5,89.0,7.15,30.0
+460,Tamil Nadu,South,Agricultural,October,2024,8420.8,44.5,2.20,30.0
+461,Karnataka,South,Industrial,October,2024,35670.8,191.2,6.35,27.8
+462,Karnataka,South,Residential,October,2024,23012.5,125.5,5.30,27.8
+463,Karnataka,South,Commercial,October,2024,15670.7,85.2,6.90,27.8
+464,Karnataka,South,Agricultural,October,2024,7720.5,42.2,2.15,27.8
+465,Andhra Pradesh,South,Industrial,October,2024,30560.7,172.5,6.20,26.0
+466,Andhra Pradesh,South,Residential,October,2024,21450.6,121.8,5.20,26.0
+467,Andhra Pradesh,South,Commercial,October,2024,14230.8,80.8,6.75,26.0
+468,Andhra Pradesh,South,Agricultural,October,2024,9150.5,52.0,2.30,26.0
+469,Uttar Pradesh,North,Industrial,October,2024,33560.8,134.5,6.55,16.5
+470,Uttar Pradesh,North,Residential,October,2024,31120.7,127.0,5.45,16.5
+471,Uttar Pradesh,North,Commercial,October,2024,17950.6,73.5,7.10,16.5
+472,Uttar Pradesh,North,Agricultural,October,2024,13120.5,54.0,2.45,16.5
+473,Rajasthan,West,Industrial,October,2024,26450.6,152.0,6.40,34.5
+474,Rajasthan,West,Residential,October,2024,19230.5,113.0,5.25,34.5
+475,Rajasthan,West,Commercial,October,2024,12012.7,71.2,6.65,34.5
+476,Rajasthan,West,Agricultural,October,2024,10340.8,60.0,2.40,34.5
+477,Madhya Pradesh,West,Industrial,October,2024,23950.5,145.8,6.30,21.0
+478,Madhya Pradesh,West,Residential,October,2024,17780.8,109.2,5.15,21.0
+479,Madhya Pradesh,West,Commercial,October,2024,11670.6,72.0,6.60,21.0
+480,Madhya Pradesh,West,Agricultural,October,2024,8680.7,53.5,2.25,21.0
+481,Punjab,North,Industrial,October,2024,20340.7,156.8,6.45,13.8
+482,Punjab,North,Residential,October,2024,15340.5,120.0,5.35,13.8
+483,Punjab,North,Commercial,October,2024,10450.6,81.5,6.80,13.8
+484,Punjab,North,Agricultural,October,2024,11950.8,95.0,2.50,13.8
+485,Haryana,North,Industrial,October,2024,19340.6,151.2,6.40,15.5
+486,Haryana,North,Residential,October,2024,14350.7,116.0,5.30,15.5
+487,Haryana,North,Commercial,October,2024,9870.5,80.2,6.75,15.5
+488,Haryana,North,Agricultural,October,2024,9150.6,74.8,2.45,15.5
+489,West Bengal,East,Industrial,October,2024,28450.7,144.0,6.60,18.0
+490,West Bengal,East,Residential,October,2024,23670.6,121.8,5.50,18.0
+491,West Bengal,East,Commercial,October,2024,15670.8,80.5,7.20,18.0
+492,West Bengal,East,Agricultural,October,2024,8420.5,43.2,2.35,18.0
+493,Delhi,North,Industrial,October,2024,9560.5,52.2,6.85,9.3
+494,Delhi,North,Residential,October,2024,16890.7,92.5,5.65,9.3
+495,Delhi,North,Commercial,October,2024,12120.6,66.2,7.30,9.3
+496,Delhi,North,Agricultural,October,2024,485.7,2.7,2.55,9.3
+497,Kerala,South,Industrial,October,2024,15670.5,89.5,6.25,37.0
+498,Kerala,South,Residential,October,2024,19012.8,109.8,5.40,37.0
+499,Kerala,South,Commercial,October,2024,9870.7,56.8,6.95,37.0
+500,Kerala,South,Agricultural,October,2024,4780.6,27.6,2.15,37.0
