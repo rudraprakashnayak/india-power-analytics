@@ -1,8 +1,20 @@
 # India Power Consumption Analytics
 
-![Power BI Dashboard](screenshots/dashboard_overview.png)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=rudraprakashnayak/india-power-analytics&branch=main&mainModule=app.py)
 
-A comprehensive end-to-end analytics project analyzing power consumption patterns across Indian states using Excel, SQL, and Power BI.
+A comprehensive end-to-end analytics project analyzing power consumption patterns across Indian states using **Streamlit**, **Plotly**, **SQL**, Excel, and Power BI.
+
+## 🚀 Live Streamlit App
+Deploy and explore the interactive dashboard instantly:
+- **Interactive Multi-page Analytics**: Regional breakdowns, monthly seasonal curves, sectoral distributions, and green energy rankings.
+- **Embedded SQL Lab**: Execute 10 pre-loaded analytical SQL queries and custom SQL queries directly against SQLite.
+- **Dynamic Filtering**: Slicers for years, regions, states, and sectors with real-time KPI updates.
+
+```bash
+# Run locally
+pip install -r requirements.txt
+streamlit run app.py
+```
 
 ## 🎯 Problem Statement
 
@@ -18,14 +30,20 @@ Understanding electricity consumption patterns across Indian states is crucial f
 
 ## 🛠 Tools Used
 
-- **Excel** - Data cleaning, VLOOKUP/XLOOKUP, pivot tables, conditional formatting
+- **Streamlit** - Interactive web application and dashboard deployment
+- **Plotly** - Dynamic, responsive data visualizations
 - **SQLite** - Database schema design, data import, analytical SQL queries
+- **Excel** - Data cleaning, VLOOKUP/XLOOKUP, pivot tables, conditional formatting
 - **Power BI** - Interactive dashboards, DAX measures, data visualization
 
 ## 📁 Project Structure
 
 ```
 india-power-analytics/
+├── app.py                             # Interactive Streamlit Web Application
+├── requirements.txt                   # Python dependencies for deployment
+├── .streamlit/
+│   └── config.toml                    # Theme and server settings
 ├── data/
 │   ├── power_consumption.csv          # Main dataset (500 rows)
 │   └── state_region_mapping.csv       # State reference table
@@ -37,7 +55,7 @@ india-power-analytics/
 │   ├── excel_guide.md                 # Excel dashboard build guide
 │   └── powerbi_guide.md               # Power BI dashboard build guide
 ├── screenshots/                       # Dashboard screenshots
-└── README.md                          # This file
+└── README.md                          # Project documentation
 ```
 
 ## 📈 Dataset Description
